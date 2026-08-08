@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F8600E742EFC677C005E4137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8600E5E2EFC677B005E4137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8600E652EFC677B005E4137;
+			remoteInfo = "Nearby Girlfriend Chat";
+		};
+		F8600E7E2EFC677C005E4137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8600E5E2EFC677B005E4137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8600E652EFC677B005E4137;
+			remoteInfo = "Nearby Girlfriend Chat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8600E662EFC677B005E4137 /* Nearby Girlfriend Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nearby Girlfriend Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8600E732EFC677C005E4137 /* Nearby Girlfriend ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nearby Girlfriend ChatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8600E7D2EFC677C005E4137 /* Nearby Girlfriend ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nearby Girlfriend ChatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F8600E682EFC677B005E4137 /* Nearby Girlfriend Chat */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Nearby Girlfriend Chat";
+			sourceTree = "<group>";
+		};
+		F8600E762EFC677C005E4137 /* Nearby Girlfriend ChatTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Nearby Girlfriend ChatTests";
+			sourceTree = "<group>";
+		};
+		F8600E802EFC677C005E4137 /* Nearby Girlfriend ChatUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Nearby Girlfriend ChatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8600E632EFC677B005E4137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8600E702EFC677C005E4137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8600E7A2EFC677C005E4137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8600E5D2EFC677B005E4137 = {
+			isa = PBXGroup;
+			children = (
+				F8600E682EFC677B005E4137 /* Nearby Girlfriend Chat */,
+				F8600E762EFC677C005E4137 /* Nearby Girlfriend ChatTests */,
+				F8600E802EFC677C005E4137 /* Nearby Girlfriend ChatUITests */,
+				F8600E672EFC677B005E4137 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8600E672EFC677B005E4137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8600E662EFC677B005E4137 /* Nearby Girlfriend Chat.app */,
+				F8600E732EFC677C005E4137 /* Nearby Girlfriend ChatTests.xctest */,
+				F8600E7D2EFC677C005E4137 /* Nearby Girlfriend ChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8600E652EFC677B005E4137 /* Nearby Girlfriend Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8600E872EFC677C005E4137 /* Build configuration list for PBXNativeTarget "Nearby Girlfriend Chat" */;
+			buildPhases = (
+				F8600E622EFC677B005E4137 /* Sources */,
+				F8600E632EFC677B005E4137 /* Frameworks */,
+				F8600E642EFC677B005E4137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F8600E682EFC677B005E4137 /* Nearby Girlfriend Chat */,
+			);
+			name = "Nearby Girlfriend Chat";
+			packageProductDependencies = (
+			);
+			productName = "Nearby Girlfriend Chat";
+			productReference = F8600E662EFC677B005E4137 /* Nearby Girlfriend Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8600E722EFC677C005E4137 /* Nearby Girlfriend ChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8600E8A2EFC677C005E4137 /* Build configuration list for PBXNativeTarget "Nearby Girlfriend ChatTests" */;
+			buildPhases = (
+				F8600E6F2EFC677C005E4137 /* Sources */,
+				F8600E702EFC677C005E4137 /* Frameworks */,
+				F8600E712EFC677C005E4137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8600E752EFC677C005E4137 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F8600E762EFC677C005E4137 /* Nearby Girlfriend ChatTests */,
+			);
+			name = "Nearby Girlfriend ChatTests";
+			packageProductDependencies = (
+			);
+			productName = "Nearby Girlfriend ChatTests";
+			productReference = F8600E732EFC677C005E4137 /* Nearby Girlfriend ChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8600E7C2EFC677C005E4137 /* Nearby Girlfriend ChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8600E8D2EFC677C005E4137 /* Build configuration list for PBXNativeTarget "Nearby Girlfriend ChatUITests" */;
+			buildPhases = (
+				F8600E792EFC677C005E4137 /* Sources */,
+				F8600E7A2EFC677C005E4137 /* Frameworks */,
+				F8600E7B2EFC677C005E4137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8600E7F2EFC677C005E4137 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F8600E802EFC677C005E4137 /* Nearby Girlfriend ChatUITests */,
+			);
+			name = "Nearby Girlfriend ChatUITests";
+			packageProductDependencies = (
+			);
+			productName = "Nearby Girlfriend ChatUITests";
+			productReference = F8600E7D2EFC677C005E4137 /* Nearby Girlfriend ChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8600E5E2EFC677B005E4137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					F8600E652EFC677B005E4137 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					F8600E722EFC677C005E4137 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = F8600E652EFC677B005E4137;
+					};
+					F8600E7C2EFC677C005E4137 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = F8600E652EFC677B005E4137;
+					};
+				};
+			};
+			buildConfigurationList = F8600E612EFC677B005E4137 /* Build configuration list for PBXProject "Nearby Girlfriend Chat" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8600E5D2EFC677B005E4137;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F8600E672EFC677B005E4137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8600E652EFC677B005E4137 /* Nearby Girlfriend Chat */,
+				F8600E722EFC677C005E4137 /* Nearby Girlfriend ChatTests */,
+				F8600E7C2EFC677C005E4137 /* Nearby Girlfriend ChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8600E642EFC677B005E4137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8600E712EFC677C005E4137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8600E7B2EFC677C005E4137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8600E622EFC677B005E4137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8600E6F2EFC677C005E4137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8600E792EFC677C005E4137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8600E752EFC677C005E4137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8600E652EFC677B005E4137 /* Nearby Girlfriend Chat */;
+			targetProxy = F8600E742EFC677C005E4137 /* PBXContainerItemProxy */;
+		};
+		F8600E7F2EFC677C005E4137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8600E652EFC677B005E4137 /* Nearby Girlfriend Chat */;
+			targetProxy = F8600E7E2EFC677C005E4137 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8600E852EFC677C005E4137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ML3M7WVYBH;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8600E862EFC677C005E4137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ML3M7WVYBH;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8600E882EFC677C005E4137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ML3M7WVYBH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to find AI companions near you. Your location data is used only to personalize your matches.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prakharsaxena.Nearby-Girlfriend-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8600E892EFC677C005E4137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ML3M7WVYBH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to find AI companions near you. Your location data is used only to personalize your matches.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prakharsaxena.Nearby-Girlfriend-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8600E8B2EFC677C005E4137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ML3M7WVYBH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prakharsaxena.Nearby-Girlfriend-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nearby Girlfriend Chat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nearby Girlfriend Chat";
+			};
+			name = Debug;
+		};
+		F8600E8C2EFC677C005E4137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ML3M7WVYBH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prakharsaxena.Nearby-Girlfriend-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nearby Girlfriend Chat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nearby Girlfriend Chat";
+			};
+			name = Release;
+		};
+		F8600E8E2EFC677C005E4137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ML3M7WVYBH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prakharsaxena.Nearby-Girlfriend-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nearby Girlfriend Chat";
+			};
+			name = Debug;
+		};
+		F8600E8F2EFC677C005E4137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ML3M7WVYBH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prakharsaxena.Nearby-Girlfriend-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nearby Girlfriend Chat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8600E612EFC677B005E4137 /* Build configuration list for PBXProject "Nearby Girlfriend Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8600E852EFC677C005E4137 /* Debug */,
+				F8600E862EFC677C005E4137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8600E872EFC677C005E4137 /* Build configuration list for PBXNativeTarget "Nearby Girlfriend Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8600E882EFC677C005E4137 /* Debug */,
+				F8600E892EFC677C005E4137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8600E8A2EFC677C005E4137 /* Build configuration list for PBXNativeTarget "Nearby Girlfriend ChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8600E8B2EFC677C005E4137 /* Debug */,
+				F8600E8C2EFC677C005E4137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8600E8D2EFC677C005E4137 /* Build configuration list for PBXNativeTarget "Nearby Girlfriend ChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8600E8E2EFC677C005E4137 /* Debug */,
+				F8600E8F2EFC677C005E4137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8600E5E2EFC677B005E4137 /* Project object */;
+}
